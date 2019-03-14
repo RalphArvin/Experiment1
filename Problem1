@@ -1,0 +1,32 @@
+// Expt 1 Prob 1
+
+#include <iostream>
+#include <conio.h>
+
+using namespace std;
+
+int main()
+{
+	int ticket250, ticket100, ticket50, ticket25, ticketsold;
+	
+	char first;
+	string str;
+
+	ticket250=50;
+	ticket100=100;
+	ticket50=150;
+	ticket25=200;
+	
+
+	cout << "ticketPrice:    numberOfTicketsSold:" <<endl;
+	cout << "premium200              " <<ticket250 <<endl;
+	cout << "sideline100             " <<ticket100 <<endl;
+	cout << "box50                   " <<ticket50 <<endl;
+	cout << "general25               " <<ticket25 <<endl;
+	cout << "                  " <<endl;                    
+	cout << "ticketsold=" << ticket250 + ticket100 + ticket50 + ticket25 <<endl;
+	cout << "totalsales=" << ticket250*50 + ticket100*100 + ticket50*150 + ticket25*200 <<endl;
+
+	_getch();
+	return 0;
+}
